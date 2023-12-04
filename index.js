@@ -14,31 +14,31 @@ const player = new Player({
   animations: {
     idleRight: {
       frameRate: 11,
-      frameBuffer: 3,
+      frameBuffer: 6,
       loop: true,
       imageSrc: "./img/king/idle.png",
     },
     idleLeft: {
       frameRate: 11,
-      frameBuffer: 3,
+      frameBuffer: 6,
       loop: true,
       imageSrc: "./img/king/idleLeft.png",
     },
     runRight: {
       frameRate: 8,
-      frameBuffer: 4,
+      frameBuffer: 8,
       loop: true,
       imageSrc: "./img/king/runRight.png",
     },
     runLeft: {
       frameRate: 8,
-      frameBuffer: 4,
+      frameBuffer: 8,
       loop: true,
       imageSrc: "./img/king/runLeft.png",
     },
     enterDoor: {
       frameRate: 8,
-      frameBuffer: 4,
+      frameBuffer: 6,
       loop: false,
       imageSrc: "./img/king/enterDoor.png",
       onComplete: () => {
